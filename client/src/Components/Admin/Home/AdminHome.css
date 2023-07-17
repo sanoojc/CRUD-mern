@@ -1,0 +1,40 @@
+/* .admin-table{
+    display: flex;
+    justify-content: space-between;
+}
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover {background-color: #D6EEEE;}   */
+
+  .search-input{
+    border: 1px solid black;
+    border-radius: 30px;
+   
+  }
+  .search-input input{
+    color: black !important;
+    height: 40px;
+  }
+  .search-input input::placeholder{
+    color: black !important;
+  }
+  .edit-btn{
+    background: blue;
+    border: 0;
+    color: white;
+    border-radius: 20px;
+    width: 60px;
+  }
+  .create-btn{
+    background: blue;
+    border: 0;
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
